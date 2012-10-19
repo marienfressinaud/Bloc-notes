@@ -1,0 +1,4 @@
+<form method="post" action="<?php echo Url::display (array ('a' => 'save')); ?>">
+	<textarea id="note_content" name="note_content"><?php echo $this->blocNote->content ();?></textarea>
+	<input type="submit" value="Sauvegarder" />
+</form>
